@@ -1,12 +1,54 @@
-# React + Vite
+# Proyecto Super Quads - Carousel Interactivo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un carrusel interactivo hecho en React que muestra varias cards girando alrededor de una llanta. El usuario puede rotar el carrusel usando el mouse o el dedo en dispositivos táctiles.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías usadas
 
-## Expanding the ESLint configuration
+- React  
+- Tailwind CSS (con Vite)  
+- react-icons  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Instalación
+
+Para poder correr el proyecto localmente, sigue estos pasos:
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/tuUsuario/tuRepositorio.git
+
+2. Entra a la carpeta del proyecto:
+
+   ```bash
+   cd prueba-tecnica-fortunara
+
+3. Instala las dependencias principales:
+
+   ```bash
+   npm install
+
+4. Instala Tailwind CSS y el plugin para Vite:
+
+   ```bash
+   npm install tailwindcss @tailwindcss/vite
+
+5. Instala react-icons para usar los íconos:
+
+   ```bash
+   npm install react-icons
+
+6. Corre el proyecto en modo desarrollo:
+
+   ```bash
+   npm run dev
+
+
+¿Qué hace este proyecto?
+El proyecto consiste en un carrusel con una imagen de una llanta al centro y varias cards que giran alrededor de esta. Las cards muestran diferentes etiquetas y se pueden rotar con el mouse o deslizando en dispositivos táctiles.
+
+El código utiliza React para el manejo de estado y eventos, Tailwind CSS para estilos rápidos y responsivos, y react-icons para mostrar íconos en el header.
+
