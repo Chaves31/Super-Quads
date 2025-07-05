@@ -19,7 +19,7 @@ Para poder correr el proyecto localmente, sigue estos pasos:
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tuUsuario/tuRepositorio.git
+   git clone https://github.com/Chaves31/Super-Quads.git
 
 2. Entra a la carpeta del proyecto:
 
